@@ -54,13 +54,20 @@ y = 5
 print(x, y)
 
 # instanciando a variável auxiliar
-temp = None
-# Utilizando a forma
 temp = x
 x = y
 y = temp
 # conferindo a troca
 print(x, y)
+
+# instanciando a variável auxiliar
+
+x = x + y
+y = x - y
+x = x - y
+# conferindo a troca
+print(x, y)
+
 
 # Utilizando operado XOR Bitwise
 # Ou operação binária
