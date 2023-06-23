@@ -60,8 +60,8 @@ y = temp
 # conferindo a troca
 print(x, y)
 
-# instanciando a variável auxiliar
-
+# Como são varíaveis numéricas, 
+# vamos fazer contas
 x = x + y
 y = x - y
 x = x - y
