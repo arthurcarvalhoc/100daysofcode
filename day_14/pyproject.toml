@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "day-14"
+version = "0.1.0"
+description = ""
+authors = ["Arthur Carvalho <arthurcarvalhoc@gmail.com>"]
+readme = "README.md"
+packages = [{include = "day_14"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
